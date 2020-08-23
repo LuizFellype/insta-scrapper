@@ -25,7 +25,8 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #1bcafa;
+  font-weight: bold
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cards-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.p-card {
+  margin: 10px;
+  max-width: 200px
+}
+.btn-over-image {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100%;
+  background: transparent !important;
+  border: none !important;
+}
+.header-wrapper {
+  position: relative;
+}
+.p-button-icon-only .p-button-icon-left {
+  top: 15% !important;
+  left: 10% !important;
 }
